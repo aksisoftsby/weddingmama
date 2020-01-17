@@ -18,20 +18,21 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Wedding Spesialist
+title: Wedding Specialist
 title_big: Wedding
-title_small: Spesialist
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title_small: Specialist
+email: p.e.andansari@gmail.com
+wa: 0858-4348-7708
+walink: https://wa.me/6285843487708
+description: Wedding Planner, Wedding Specialist, we offers professional wedding planner services
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://wedding.aksisoft.com/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://wedding.aksisoft.com" # the base hostname & protocol for your site, e.g. http://example.com
 # url: "http://127.0.0.1:4000/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
-
+alamat: Jl. Tunjungan No. 65, Genteng, <br />Surabaya City, <br />East Java 60275
+# twitter_username: jekyllrb
+# github_username:  jekyll
+instagram_username: chrystal.catherine.sari
+# 0858-4348-7708
 # Build settings
 theme: minima
 plugins:

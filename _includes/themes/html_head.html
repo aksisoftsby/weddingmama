@@ -24,36 +24,13 @@
       padding: 0 !important;
     }
   </style>
-  <link rel='stylesheet' id='wp-block-library-css'  href='wp-includes/css/dist/block-library/style.min.css@ver=5.3.2.css' type='text/css' media='all' />
-  <link rel='stylesheet' id='contact-form-7-css'  href='wp-content/plugins/contact-form-7/includes/css/styles.css@ver=5.1.6.css' type='text/css' media='all' />
-  <link rel='stylesheet' id='main-css'  href='wp-content/themes/candyqueen/style.css@ver=5.3.2.css' type='text/css' media='all' />
-  <link rel='stylesheet' id='flexslider-css'  href='wp-content/themes/candyqueen/js/flexslider.css@ver=5.3.2.css' type='text/css' media='all' />
+  <link rel='stylesheet' id='wp-block-library-css'  href='{{site.url}}/wp-includes/css/dist/block-library/style.min.css@ver=5.3.2.css' type='text/css' media='all' />
+  <link rel='stylesheet' id='contact-form-7-css'  href='{{site.url}}/wp-content/plugins/contact-form-7/includes/css/styles.css@ver=5.1.6.css' type='text/css' media='all' />
+  <link rel='stylesheet' id='main-css'  href='{{site.url}}/wp-content/themes/candyqueen/style.css@ver=5.3.2.css' type='text/css' media='all' />
+  <link rel='stylesheet' id='flexslider-css'  href='{{site.url}}/wp-content/themes/candyqueen/js/flexslider.css@ver=5.3.2.css' type='text/css' media='all' />
   <link rel='stylesheet' id='googlefonts-css'  href='http://fonts.googleapis.com/css?family=Playfair+Display%3A400%2C700%2C400italic%2C700italic&#038;subset=latin%2Clatin-ext&#038;ver=5.3.2' type='text/css' media='all' />
-  <script type='text/javascript' src='wp-includes/js/jquery/jquery.js@ver=1.12.4-wp'></script>
-  <script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.min.js@ver=1.4.1'></script>
-  <script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBiAzq_P_zSOucySJu6_IGhcOCtxiNR06A&#038;callback=initMap&#038;ver=5.3.2'></script>
-
-  <script>
-    // Google Map related
-    function candyqueen_initialize() {
-    var myLatlng = new google.maps.LatLng( - 37.817314, 144.955431);
-    var map_options = {
-    zoom: 16,
-            mapTypeId: google.maps.MapTypeId.ROADMAP,
-            center: myLatlng,
-            scrollwheel: false,
-            disableDefaultUI: true
-    }
-
-    var map = new google.maps.Map(document.getElementById('map_canvas'), map_options); var image = new google.maps.MarkerImage('http://demo.mage-themes.com/wordpress/candyqueen/wp-content/themes/candyqueen/images/icon-google-maps-marker.png', null, null, null, new google.maps.Size(34, 45)); var marker = new google.maps.Marker({
-    position: myLatlng,
-            map: map,
-            icon: image
-    });
-    map.panBy( - 200, 0);
-    map.setOptions({styles: styles});
-    }
-
-    google.maps.event.addDomListener(window, 'load', candyqueen_initialize);
-  </script>
+  <script type='text/javascript' src='{{site.url}}/wp-includes/js/jquery/jquery.js@ver=1.12.4-wp'></script>
+  <script type='text/javascript' src='{{site.url}}/wp-includes/js/jquery/jquery-migrate.min.js@ver=1.4.1'></script>
+  
+  
 </head>
